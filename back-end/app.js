@@ -82,9 +82,9 @@ app.post('/messages/save', async (req, res) => {
 app.get('/about', (req, res) => {
     res.json({
         bio: [
-            "Hello! My name is Madison Phung and I'm currently a senior at Gallatin studying Computer Science and Technology Studies. I have taken classes such as Software Engineering, Applied Internet Technology, and Database Design and Implementation. I initially came to NYU to study Entertainment Business but I switched to CS during my Sophomore Year. I plan on graduating this semester.",
-            "I am also the Team Captain of the NYU Women's Golf Team. I have been playing golf since I was ten years old and was recruited to play golf for NYU. I currently tie the single-round program record for shooting 69 twice, once during my first collegiate tournament and once during the 2022 NCAA National Championship. Our next tournament is the Jekyll Invitational on March 21-23.",
-            "Outside of school and golf, I love exploring different areas in New York City. I am a big foodie and have done food crawls in Chinatown, Red Hook, and Carroll Gardens. I also love to watch TV and listen to music."
+            "Hello! My name is Madison Phung and I'm currently a senior at Gallatin studying Computer Science and Technology Studies. I have taken classes such as Software Engineering, Applied Internet Technology, and Database Design and Implementation. I initially came to NYU to study Entertainment Business but I switched to CS during my Sophomore Year. I plan on graduating this semester.\n",
+            "I am also the Team Captain of the NYU Women's Golf Team. I have been playing golf since I was ten years old and was recruited to play golf for NYU. I currently tie the single-round program record for shooting 69 twice, once during my first collegiate tournament and once during the 2022 NCAA National Championship. Our next tournament is the Jekyll Invitational on March 21-23.\n",
+            "Outside of school and golf, I love exploring different areas in New York City. I am a big foodie and have done food crawls in Chinatown, Red Hook, and Carroll Gardens. I also love to watch TV and listen to music.\n"
         ],
         imageURL: '/my-pic.png'
     })
