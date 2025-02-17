@@ -4,7 +4,7 @@ const About = () => {
   const [aboutData, setAboutData] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:7002/about')
+    fetch('http://localhost:5002/about')
       .then(response => response.json())
       .then(data => setAboutData(data))
       .catch(error => console.error('Error fetching about data:', error));
