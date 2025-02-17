@@ -18,7 +18,9 @@ const About = () => {
     <div className="about-container" style={{ maxWidth: '600px', margin: '0 auto', textAlign: 'center' }}>
       <h1>About Us</h1>
       {aboutData.bio.map((paragraph, index) => (
-        <p key={index} style={{ textAlign: 'left' }}>{paragraph}</p>
+        <p key={index} style={{ textAlign: 'left', marginBottom: '16px' }}>
+            {paragraph}
+        </p>
       ))}
       <img 
         src={aboutData.imageURL} 
