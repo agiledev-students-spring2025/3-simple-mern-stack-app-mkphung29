@@ -4,7 +4,7 @@ const About = () => {
   const [aboutData, setAboutData] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/about') // Ensure this matches your backend's running URL
+    fetch('http://localhost:7002/about') // Ensure this matches your backend's running URL
       .then(response => response.json())
       .then(data => setAboutData(data))
       .catch(error => console.error('Error fetching about data:', error));
